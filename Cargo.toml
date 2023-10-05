@@ -23,3 +23,7 @@ tracing-subscriber = { version = "0.3", default-features = false, features = ["f
 tokio-postgres = "0.7.10"
 postgres-native-tls = "0.5.0"
 native-tls = "0.2.11"
+async-std = "1.12.0"
+once_cell = "1.18.0"
+rustls = "0.21.7"
+openssl = { version = "0.10.35", features = ["vendored"] }
